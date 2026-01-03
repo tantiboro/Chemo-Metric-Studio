@@ -4,6 +4,5 @@ numpy
 scipy
 plotly
 scikit-learn
-rdkit
+rdkit>=2023.9.1
 pytest
-rdkit-pypi

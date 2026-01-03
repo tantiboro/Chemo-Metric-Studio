@@ -1,0 +1,25 @@
+# --- Environments ---
+# Ignore your custom environment
+electro_env/
+venv/
+env/
+.env
+
+# --- Python ---
+# Ignore compiled files (junk)
+__pycache__/
+*.pyc
+
+# --- Data ---
+# We ignore the CSVs because generator.py creates them. 
+# This keeps the repo lightweight.
+data/
+*.csv
+
+# --- Streamlit ---
+# NEVER commit secrets (API keys, passwords)
+.streamlit/secrets.toml
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
