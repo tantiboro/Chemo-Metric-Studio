@@ -9,9 +9,9 @@ import chemometrics
 import structure_viz 
 
 
-st.set_page_config(page_title="Electro-Insight", layout="wide")
+st.set_page_config(page_title="Chemometrics", layout="wide")
 
-st.title("⚡ Electro-Insight: MSD R&D Dashboard")
+st.title("⚡ Chemometrics Studio: MSD R&D Dashboard")
 
 # Create Tabs
 tab1, tab2, tab3 = st.tabs(["🔬 Single Experiment", "📊 Chemometrics", "🧪 Structure-Property"])
